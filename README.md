@@ -1,31 +1,9 @@
 Работа с фондовой биржей в рамках программной инженерии
 artur@fok:~/Документы/GIT$ git init
-подсказка: Using 'master' as the name for the initial branch. This default branch name
-подсказка: is subject to change. To configure the initial branch name to use in all
-подсказка: of your new repositories, which will suppress this warning, call:
-подсказка: 
-подсказка: 	git config --global init.defaultBranch <name>
-подсказка: 
-подсказка: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-подсказка: 'development'. The just-created branch can be renamed via this command:
-подсказка: 
-подсказка: 	git branch -m <name>
+
 Инициализирован пустой репозиторий Git в /home/artur/Документы/GIT/.git/
 artur@fok:~/Документы/GIT$ git add BIRZHA
-warning: добавление встроенного git репозитория: BIRZHA/FondBirza
-подсказка: You've added another git repository inside your current repository.
-подсказка: Clones of the outer repository will not contain the contents of
-подсказка: the embedded repository and will not know how to obtain it.
-подсказка: If you meant to add a submodule, use:
-подсказка: 
-подсказка: 	git submodule add <url> BIRZHA/FondBirza
-подсказка: 
-подсказка: If you added this path by mistake, you can remove it from the
-подсказка: index with:
-подсказка: 
-подсказка: 	git rm --cached BIRZHA/FondBirza
-подсказка: 
-подсказка: See "git help submodule" for more information.
+
 artur@fok:~/Документы/GIT$ git commit -m "first"
 [master (корневой коммит) 19b4a18] first
  1 file changed, 1 insertion(+)
